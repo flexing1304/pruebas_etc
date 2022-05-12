@@ -1,0 +1,38 @@
+@import "./header";
+
+.hero{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+    .hero__left{
+        display: flex;
+    }
+    .hero__right{
+        
+      color: rgb(0, 0, 0);
+    }
+    .hero_title{
+        font-size: 35px;
+    }
+    .title__razer{
+        color: green;
+        transition: color .5s;
+    }
+    .title__razer:hover{
+        color: rgb(255, 255, 255);
+    }
+    .hero__subtitle{
+        font-size: 40px;
+    }
+    .content1{
+        padding: 5px;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .imagen1:hover {
+        filter: opacity(.5);
+    }
+
+}
